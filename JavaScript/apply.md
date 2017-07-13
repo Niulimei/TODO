@@ -226,3 +226,4 @@ Array.prototype.push.apply(arr1,arr2);
 
 
 
+onkeyup={this.onKeyup.bind(this, 'code')}
