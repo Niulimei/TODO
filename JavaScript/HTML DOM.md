@@ -59,3 +59,52 @@ HTML 4.0 的新特征之一是能够使HTML事件触发浏览器中的行为，�
 
 
 [参考文献](http://www.w3school.com.cn/jsref/dom_obj_event.asp)
+
+
+# HTML DOM setTimeout()方法
+
+## 定义和用法
+
+setTimeout()方法用于在指定的毫秒数后调用函数或计算表达式。      
+
+## 语法
+
+```
+  setTimeout(code,millisec)
+```
+
+|   参数   |  描述  |
+|:---------|:------|
+|code      |必需。要调用的函数后要执行的JavaScript 代码。|
+|millisec  |必需。在执行代码前需要等待的毫秒数。|
+
+***
+
+## 提示和注释
+### 提示：setTimeout()只执行code 一次。如果要多次调用，请使用 setInterval()或者让code自身再调用 setTimeout()。
+
+***
+
+```
+<html>    
+<head>
+<script type="text/javascript">
+function timedMsg(){
+  var t = setTimeout("alert('5 seconds!')",5000)
+}
+</script>
+</head>
+<body>
+  <form>
+  <input type="button" value="显示计时的消息框！" onClick = "timedMsg()">
+  </form>
+  <p>点击上面的按钮。5秒后会显示一个消息框。</p>
+</body>
+</html>
+
+```
+
+
+[参考文献:HTML DOM setTimeout](http://www.w3school.com.cn/jsref/met_win_settimeout.asp)
+
+
