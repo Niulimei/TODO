@@ -40,11 +40,11 @@ HTML 4.0 的新特征之一是能够使HTML事件触发浏览器中的行为，�
 
 除了上面的属性/事件属性，IE浏览器还支持下面的属性：   
 
-![IE 属性](./img/event IE.png)
+![IE 属性](./img/eventIE.png)
 
 ## 标准 Event 属性
 
-![标准 Event 属性](./img/Event 属性.png)
+![标准 Event 属性](./img/Event属性.png)
 
 ## 标准 Event 方法
 
