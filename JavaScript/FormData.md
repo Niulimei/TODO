@@ -123,4 +123,4 @@
 
 ## 通过AJAX提交表单和上传文件可以不使用FormData对象
 
-[参考文件](https://developer.mozilla.org/zh-CN/docs/Web/API/FormData/Using_FormData_Objects)   
+[参考文献](https://developer.mozilla.org/zh-CN/docs/Web/API/FormData/Using_FormData_Objects)   
